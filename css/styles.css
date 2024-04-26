@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.area {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+@keyframes slide {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 100px;
+    }
+}
+
+.robot {
+    position: absolute;
+    animation: slide 2s infinite;
+}
+
+.square1 {
+    position: absolute;
+    left: 0px;
+    width: 100;
+    height: 100;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.square2 {
+    position: absolute;
+    top: 30px;
+    width: 130;
+    height: 70;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+
+.circle1 {
+    position: absolute;
+    top: 100px;
+    width: 30;
+    height: 30;
+    border-style: solid;
+    border-color: white;
+    border-radius: 100px;
+}
+
+.circle2 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 30;
+    height: 30;
+    border-style: solid;
+    border-color: white;
+    border-radius: 100px;
+}
+
